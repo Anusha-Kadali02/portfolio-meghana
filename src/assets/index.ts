@@ -22,7 +22,10 @@ import typescript from "./tech/typescript.png";
 import mysql from "./tech/mysql.png";
 
 import accenture from "./company/accenture.png";
-import resume from "./resume.pdf"
+import resume from "./resume.pdf";
+
+import shlipkala from "./shlipkala.png";
+import railwaymgmt from "./railway-mgmt.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,4 +58,6 @@ export {
   resume,
   jobit,
   tripguide,
+  railwaymgmt,
+  shlipkala
 };
