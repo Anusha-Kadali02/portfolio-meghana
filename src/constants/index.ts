@@ -21,6 +21,8 @@ import {
   mongodb,
   git,
   accenture,
+  shlipkala,
+  railwaymgmt,
   carrent,
   jobit,
   angular,
@@ -167,26 +169,47 @@ const testimonials: TTestimonial[] = [
 ];
 
 const projects: TProject[] = [
-  {
-    name: "Inventory management of a construction-based hardware store",
+   {
+    name: "ShilpKala",
     description:
-      "Developed a web-based platform for a hardware store that allows users to manage inventory efficiently. Is integrated with a SQL database, providing a robust solution for tracking stock levels, orders, and deliveries.",
+      "Developed an ecommerce app using React and Node.js, implementing features like package tracking, notifications, authentication, and authorization. Enhanced user experience with real-time tracking and communication. Designed a feature-rich admin dashboard with Chart.js for seamless platform management.",
     tags: [
       {
-        name: "JSP",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
-        name: "SQL",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: shlipkala,
+    sourceCodeLink: "https://github.com/WebTeam-6/INFO6150-FinalProject",
+  },
+  {
+    name: "Rail Ops Hub",
+    description:
+      "Worked on the Train Management Database System, focusing on enhancing train operations and passenger experience in Boston. Utilized SQL Server for database management, Tableau for data visualization, Angular for frontend UI, and Node.js for SQL Server connectivity.",
+    tags: [
+      {
+        name: "SQL Server",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tableau",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Angular and NodeJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: railwaymgmt,
+    sourceCodeLink: "https://github.com/nikitha-kambhampati/Railway-Management-System",
   },
   {
     name: "Personal Loan Predictor",
