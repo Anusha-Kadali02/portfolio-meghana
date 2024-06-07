@@ -23,7 +23,6 @@ import {
   accenture,
   shlipkala,
   railwaymgmt,
-  carrent,
   jobit,
   angular,
   springboot,
