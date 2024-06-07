@@ -48,7 +48,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Meghana Kadali",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+   p: ["Passionate about web development,", "excelling in databases and data visualization with strong data management skills."],
   },
   contact: {
     p: "Get in touch",
